@@ -532,7 +532,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/earthDemo",
 				);
-				INFOPLIST_FILE = earthDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EarthDemoTagLinkage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,7 +555,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/earthDemo",
 				);
-				INFOPLIST_FILE = earthDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EarthDemoTagLinkage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
