@@ -12,8 +12,8 @@
 		0A7FEF102604CF110002F7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF0F2604CF110002F7EB /* ViewController.swift */; };
 		0A7FEF152604CF140002F7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7FEF142604CF140002F7EB /* Assets.xcassets */; };
 		0A7FEF182604CF140002F7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7FEF162604CF140002F7EB /* LaunchScreen.storyboard */; };
-		0A7FEF232604CF150002F7EB /* earthDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF222604CF150002F7EB /* earthDemoTests.swift */; };
-		0A7FEF2E2604CF150002F7EB /* earthDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF2D2604CF150002F7EB /* earthDemoUITests.swift */; };
+		0A7FEF232604CF150002F7EB /* EarthDemoTagLinkageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF222604CF150002F7EB /* EarthDemoTagLinkageTests.swift */; };
+		0A7FEF2E2604CF150002F7EB /* EarthDemoTagLinkageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF2D2604CF150002F7EB /* EarthDemoTagLinkageUITests.swift */; };
 		0A7FEF4F2604D2BB0002F7EB /* earthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF4E2604D2BB0002F7EB /* earthNode.swift */; };
 		0A7FEF502604D2BB0002F7EB /* earthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF4E2604D2BB0002F7EB /* earthNode.swift */; };
 		0A7FEF512604D2BB0002F7EB /* earthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FEF4E2604D2BB0002F7EB /* earthNode.swift */; };
@@ -72,10 +72,10 @@
 		0A7FEF172604CF140002F7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A7FEF192604CF140002F7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A7FEF1E2604CF150002F7EB /* EarthDemoTagLinkageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthDemoTagLinkageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7FEF222604CF150002F7EB /* earthDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = earthDemoTests.swift; sourceTree = "<group>"; };
+		0A7FEF222604CF150002F7EB /* EarthDemoTagLinkageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDemoTagLinkageTests.swift; sourceTree = "<group>"; };
 		0A7FEF242604CF150002F7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A7FEF292604CF150002F7EB /* EarthDemoTagLinkageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthDemoTagLinkageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7FEF2D2604CF150002F7EB /* earthDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = earthDemoUITests.swift; sourceTree = "<group>"; };
+		0A7FEF2D2604CF150002F7EB /* EarthDemoTagLinkageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDemoTagLinkageUITests.swift; sourceTree = "<group>"; };
 		0A7FEF2F2604CF150002F7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A7FEF4E2604D2BB0002F7EB /* earthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = earthNode.swift; sourceTree = "<group>"; };
 		0A7FEF5B2604D7110002F7EB /* Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Normal.png; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		0A7FEF212604CF150002F7EB /* EarthDemoTagLinkageTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A7FEF222604CF150002F7EB /* earthDemoTests.swift */,
+				0A7FEF222604CF150002F7EB /* EarthDemoTagLinkageTests.swift */,
 				0A7FEF242604CF150002F7EB /* Info.plist */,
 			);
 			path = EarthDemoTagLinkageTests;
@@ -169,7 +169,7 @@
 		0A7FEF2C2604CF150002F7EB /* EarthDemoTagLinkageUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0A7FEF2D2604CF150002F7EB /* earthDemoUITests.swift */,
+				0A7FEF2D2604CF150002F7EB /* EarthDemoTagLinkageUITests.swift */,
 				0A7FEF2F2604CF150002F7EB /* Info.plist */,
 			);
 			path = EarthDemoTagLinkageUITests;
@@ -363,7 +363,7 @@
 				0A7FEF91260741A90002F7EB /* newsVC.swift in Sources */,
 				0A7FEF87260702800002F7EB /* cardNode.swift in Sources */,
 				0A7FEF502604D2BB0002F7EB /* earthNode.swift in Sources */,
-				0A7FEF232604CF150002F7EB /* earthDemoTests.swift in Sources */,
+				0A7FEF232604CF150002F7EB /* EarthDemoTagLinkageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +374,7 @@
 				0A7FEF92260741A90002F7EB /* newsVC.swift in Sources */,
 				0A7FEF88260702800002F7EB /* cardNode.swift in Sources */,
 				0A7FEF512604D2BB0002F7EB /* earthNode.swift in Sources */,
-				0A7FEF2E2604CF150002F7EB /* earthDemoUITests.swift in Sources */,
+				0A7FEF2E2604CF150002F7EB /* EarthDemoTagLinkageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

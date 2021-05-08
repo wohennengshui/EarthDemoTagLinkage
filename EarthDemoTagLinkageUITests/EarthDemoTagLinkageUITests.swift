@@ -1,13 +1,13 @@
 //
-//  earthDemoUITests.swift
-//  earthDemoUITests
+//  EarthDemoTagLinkageUITests.swift
+//  EarthDemoTagLinkageUITests
 //
 //  Created by li on 2021/3/19.
 //
 
 import XCTest
 
-class earthDemoUITests: XCTestCase {
+class EarthDemoTagLinkageUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
